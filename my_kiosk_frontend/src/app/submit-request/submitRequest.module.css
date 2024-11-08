@@ -1,0 +1,77 @@
+/* src/app/submit-a-request/submitRequest.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #c1c6fc; /* Dark background for contrast */
+}
+
+.content {
+  text-align: left;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px; /* Ensure better fit on smaller screens */
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem; /* Added margin for better spacing */
+}
+
+.label {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: block; /* Ensure label is on its own line */
+  font-weight: bold; /* Make label text bold for better visibility */
+}
+
+.formField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Added border for better visibility */
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+.formField:focus {
+  border-color: #4CAF50; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+.textarea {
+  resize: vertical; /* Allow resizing only vertically */
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #4CAF50; /* Match the theme */
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Added border radius for better aesthetics */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s; /* Added transform transition */
+}
+
+.btn:hover {
+  background-color: #D55B5B; /* Darker shade for hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.btn:active {
+  transform: translateY(0); /* Reset the lift effect when active */
+}
+
+.successMessage {
+  margin-top: 20px;
+  color: #4CAF50; /* Use the theme color for consistency */
+  font-weight: bold; /* Bold text for success message */
+}

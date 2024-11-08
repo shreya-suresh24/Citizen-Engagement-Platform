@@ -1,0 +1,40 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 20px; /* Position above the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .keys {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of keys */
+    justify-content: center;
+  }
+  
+  .key {
+    margin: 2px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #F38181; /* Match the theme */
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .key:hover {
+    background-color: #D55B5B; /* Darker shade for hover */
+  }
+  
+  .selected {
+    background-color: #D55B5B; /* Highlight selected key */
+  }
+  

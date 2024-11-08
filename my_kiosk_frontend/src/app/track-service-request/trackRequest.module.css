@@ -1,0 +1,74 @@
+/* src/app/track-service/trackRequest.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #c1c6fc; /* Purple background */
+  }
+  
+  .content {
+    text-align: left;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+  }
+  
+  .formField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formField:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .btn {
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #D55B5B;
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    transform: translateY(0);
+  }
+  
+  .statusMessage {
+    margin-top: 20px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  

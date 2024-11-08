@@ -1,0 +1,79 @@
+/* src/app/emergency-request/emergencyRequest.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f2dede; /* Light background with slight red tint for emergency feel */
+  }
+  
+  .content {
+    text-align: left;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #a94442; /* Dark red for title to emphasize emergency */
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+    font-weight: bold;
+    color: #a94442; /* Consistent color with the emergency theme */
+  }
+  
+  .formField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formField:focus {
+    border-color: #d9534f; /* Slightly darker red for focus effect */
+    outline: none;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .btn {
+    padding: 1rem;
+    background-color: #d9534f; /* Emergency theme red */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #c9302c; /* Darker shade for hover */
+    transform: translateY(-2px);
+  }
+  
+  .btn:active {
+    transform: translateY(0);
+  }
+  
+  .successMessage {
+    margin-top: 20px;
+    color: #5cb85c; /* Green color for success message to show completion */
+    font-weight: bold;
+  }
+  
